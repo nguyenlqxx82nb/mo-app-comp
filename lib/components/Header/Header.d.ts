@@ -1,0 +1,41 @@
+import React from 'react';
+export declare class Header extends React.PureComponent<any, any> {
+    static defaultProps: {
+        style: {};
+        back: boolean;
+        hasSearch: boolean;
+        hasFilter: boolean;
+        opacityScroll: boolean;
+        leftButtons: any[];
+        rightButtons: any[];
+        backShow: boolean;
+        minStatusOpacity: number;
+        barColor: string;
+        cancelSearch: boolean;
+        placeholder: string;
+        badge: number;
+        limitChars: number;
+        backIcon: string;
+        offsetTop: number;
+    };
+    searchInput: any;
+    centerView: any;
+    isFirst: boolean;
+    constructor(props: any);
+    componentDidMount(): void;
+    componentWillUnmount(): void;
+    onSearchTextChangeHandler: (searchValue: string) => void;
+    onBackHandle: () => void;
+    showSearchPanel: () => void;
+    cancelSearchPanel: () => void;
+    clearAllText: () => void;
+    hideSearchPanel: () => void;
+    onSearchSubmit: () => void;
+    onFilterHandler: () => void;
+    getSearchValue: () => any;
+    setSearchInputHolder: (holder: string) => void;
+    setBarColor: (barColor: string, opacity?: number) => void;
+    onSearchInputFocusHandler: () => void;
+    setSearchValue: (value: string) => void;
+    render(): JSX.Element;
+}

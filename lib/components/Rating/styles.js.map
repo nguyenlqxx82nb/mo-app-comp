@@ -1,0 +1,1 @@
+{"version":3,"file":"styles.js","sourceRoot":"","sources":["../../../src/components/Rating/styles.tsx"],"names":[],"mappings":";;AACA,+CAA0C;AAE1C,kBAAe,yBAAU,CAAC,MAAM,CAAC;IAC7B,SAAS,EAAE;QACT,aAAa,EAAE,KAAK;QACpB,cAAc,EAAE,QAAQ;QACxB,UAAU,EAAE,QAAQ;KACrB;IACD,IAAI,EAAE;QACJ,KAAK,EAAE,gBAAgB;KACxB;CACJ,CAAC,CAAC"}

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "jsx": "react-native",
+    "lib": ["ESNext"],
+    "module": "CommonJS",
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "./lib",
+    "sourceMap": true,
+    "strict": false,
+    "target": "ESNext",
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules", 
+    "babel.config.js",
+    "jest.config.js"]
+}

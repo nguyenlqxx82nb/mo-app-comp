@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>default_avatar</title>
+    <defs>
+        <circle id="path-1" cx="32" cy="32" r="32"></circle>
+    </defs>
+    <g id="default_avatar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-92">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#DAE4E6" xlink:href="#path-1"></use>
+            <path d="M32,40 C45.8071187,40 57,51.1928813 57,65 C57,78.8071187 45.8071187,90 32,90 C18.1928813,90 7,78.8071187 7,65 C7,51.1928813 18.1928813,40 32,40 Z M32,12 C39.1797017,12 45,17.8202983 45,25 C45,32.1797017 39.1797017,38 32,38 C24.8202983,38 19,32.1797017 19,25 C19,17.8202983 24.8202983,12 32,12 Z" id="Combined-Shape" fill="#B6BEBF" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>

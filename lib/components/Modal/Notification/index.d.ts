@@ -1,0 +1,58 @@
+import { PureComponent } from 'react';
+import PropTypes from 'prop-types';
+export default class NotificationModal extends PureComponent<any, any> {
+    static propTypes: {
+        children: PropTypes.Requireable<PropTypes.ReactNodeLike>;
+        type: PropTypes.Requireable<string>;
+        content: PropTypes.Requireable<string>;
+        onOk: PropTypes.Requireable<(...args: any[]) => any>;
+        onCancel: PropTypes.Requireable<(...args: any[]) => any>;
+        onClose: PropTypes.Requireable<(...args: any[]) => any>;
+        iconName: PropTypes.Requireable<string>;
+        iconColor: PropTypes.Requireable<string>;
+        buttons: PropTypes.Requireable<any[]>;
+        autoClose: PropTypes.Requireable<boolean>;
+        isLargeSize: PropTypes.Requireable<boolean>;
+        isOpen: PropTypes.Requireable<boolean>;
+        backDropClose: PropTypes.Requireable<boolean>;
+        textAlign: PropTypes.Requireable<string>;
+        autoOpen: PropTypes.Requireable<boolean>;
+        item: PropTypes.Requireable<object>;
+        showPos: PropTypes.Requireable<string>;
+        position: PropTypes.Requireable<string>;
+        overlayClose: PropTypes.Requireable<boolean>;
+        title: PropTypes.Requireable<string>;
+    };
+    static defaultProps: {
+        iconName: string;
+        iconColor: string;
+        hlColor: string;
+        autoClose: boolean;
+        isLargeSize: boolean;
+        backDropClose: boolean;
+        textAlign: string;
+        autoOpen: boolean;
+        type: string;
+        position: string;
+        showPos: string;
+        overlayClose: boolean;
+    };
+    item: any;
+    modalRef: any;
+    constructor(props: any);
+    componentDidMount(): void;
+    close: () => void;
+    hide: () => void;
+    show(): void;
+    setData: (content: any, iconName: any, iconColor: any, textAlign: any, link: any) => void;
+    setDataItem(item: any): void;
+    getDataItem(): any;
+    setContent: (content: any) => void;
+    setIcon: (iconName: any, iconColor: any) => void;
+    onCancelHandle: () => void;
+    onOkHandle: () => void;
+    goToURL: (url: any) => void;
+    onGotoLinkHandler: (link: any) => void;
+    renderContentText: (value: any) => JSX.Element;
+    render(): JSX.Element;
+}
